@@ -46,7 +46,7 @@ var swiper = new Swiper(".mySwiper", {
     responsiveClass:true,
     responsive:{
         0:{
-            items:2,
+            items:3,
             nav:true
         },
         600:{
@@ -171,5 +171,16 @@ var swiper = new Swiper(".mySwiperr", {
   autoplay: {
     delay: 1500,
     disableOnInteraction: false,
+  },
+});
+
+
+
+Fancybox.bind('[data-fancybox="gallery"]', {
+  Thumbs: {
+    Carousel: {
+      fill: false,
+      center: true,
+    },
   },
 });

@@ -383,6 +383,10 @@ nav .nav ul li:hover a {
     align-items: center;
     justify-content: center;
 }
+#section3 .box-product  a{
+    text-decoration: none;
+    color: #000;
+}
 
 #section3 .box-product .box-text p {
     display: flex;
@@ -561,6 +565,21 @@ nav .nav ul li:hover a {
     position: relative;
     font-weight: 700;
     display: flex;
+    align-items: center;
+}
+#section4 .container-fluid .box-text a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+
+}
+#section4 .container-fluid .box-text a:hover{
+    color: #EA1B22;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
 }
 
 #section4 .container-fluid .box-text span {
@@ -638,7 +657,17 @@ nav .nav ul li:hover a {
     flex-direction: column;
     align-items: center;
     position: relative;
+    box-shadow: 0px 1px 5px 0px #888888;
 }
+#section5 .box-contener:hover {
+    transition:all 0.5s ease-in-out ;
+    bottom: 7px;
+    box-shadow: 0px 1px 5px 0px #f33535;
+    -webkit-transition:all 0.5s ease-in-out ;
+    -moz-transition:all 0.5s ease-in-out ;
+    -ms-transition:all 0.5s ease-in-out ;
+    -o-transition:all 0.5s ease-in-out ;
+ }
 
 #section5 .box-sos {
     display: grid;
@@ -764,7 +793,28 @@ nav .nav ul li:hover a {
     border: 1px solid rgb(231, 231, 231);
     box-shadow: 0px 1px 5px 0px #888888;
 }
-
+#section5 .medium .box-contener:hover {
+   transition:all 0.5s ease-in-out ;
+   bottom: 7px;
+   box-shadow: 0px 1px 5px 0px #f33535;
+   -webkit-transition:all 0.5s ease-in-out ;
+   -moz-transition:all 0.5s ease-in-out ;
+   -ms-transition:all 0.5s ease-in-out ;
+   -o-transition:all 0.5s ease-in-out ;
+   transition: all 0.5s ease;
+}
+#section5  .box-text a{
+    text-decoration: none;
+    color: #000;
+}
+#section5 .box-text a:hover{
+    transition: all 0.5s ease;
+    color:#EA1B24;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
 #section5 .medium .box-text p {
     display: flex;
     align-items: center;
@@ -774,7 +824,7 @@ nav .nav ul li:hover a {
 }
 
 #section5 .container .big-box {
-    margin: 40px 0;
+    margin: 50px 0;
 }
 
 #section6 {
@@ -801,7 +851,7 @@ nav .nav ul li:hover a {
     left: 50%;
     padding: 2px;
     width: 20%;
-    color: red;
+    color:#EA1B22;
     font-size: 20px;
     background: rgb(255, 0, 0);
     transform: translatex(-50%);
@@ -892,7 +942,24 @@ nav .nav ul li:hover a {
     justify-content: center;
     margin-top: 5px;
 }
-
+#section6 .container-fluid .box-text a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+#section6 .container-fluid .box-text a:hover{
+    text-decoration: none;
+    color:#EA1B22;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
 #section6 .container-fluid .right .box-img img {
     max-width: 70%;
 }
@@ -959,7 +1026,24 @@ nav .nav ul li:hover a {
     -ms-transform: translatex(-50%);
     -o-transform: translatex(-50%);
 }
-
+#section7 .box-text a{
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+#section7 .container-fluid .box-text a:hover{
+    text-decoration: none;
+    color:#EA1B22;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
 #section7 .owl-carousel .owl-item .box-text img {
 
     max-width: 13px;
@@ -1422,7 +1506,9 @@ nav .nav ul li:hover a {
 #section10 .owl-nav {
     display: none;
 }
-
+#section10 a[data-fancybox] img {
+    cursor: zoom-in;
+  }
 
 
 #section11 {
@@ -1431,6 +1517,8 @@ nav .nav ul li:hover a {
     position: relative;
     padding-top: 20px;
     background-color: #F7F7F7;
+    overflow: hidden;
+    
 }
 
 #section11 .container-fluid .box-header h2 {
@@ -1441,6 +1529,42 @@ nav .nav ul li:hover a {
     display: block;
     position: relative;
     color: black;
+}
+#section11 .bacraund{
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+#section11 .ins{
+    width: 50px;
+    left: 50%;
+    top: 55%;
+    display: block;
+    transition: all 1s ease-in-out!important;
+    transform: translate(-50% ,50%)!important;
+    -webkit-transform: translate(-50% ,50%)!important;
+    -moz-transform: translate(-50% ,50%)!important;
+    -ms-transform: translate(-50% ,50%)!important;
+    -o-transform: translate(-50% ,50%)!important;
+    -webkit-transition: all 1s ease-in-out!important;
+    -moz-transition: all 1s ease-in-out!important;
+    -ms-transition: all 1s ease-in-out!important;
+    -o-transition: all 1s ease-in-out!important;
+}
+#section11 .container-fluid .container-fluid:hover .bacraund{
+    display: none;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
 }
 #section11 .container-fluid .box-header{
     display: flex;
@@ -1517,7 +1641,9 @@ nav .nav ul li:hover a {
     height: 100%;
     margin: 0;
     padding: 0;
+    padding-top: 20px ;
     overflow: hidden;
+    position:relative;
     padding: 50px 0 0;
   }
 
@@ -1595,7 +1721,6 @@ nav .nav ul li:hover a {
   footer .rights .row p {
     margin: 10px;
     color: rgb(0, 0, 0) !important;
-   
   }
   footer .rights .row a {
    
