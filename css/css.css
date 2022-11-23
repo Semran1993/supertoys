@@ -1460,7 +1460,7 @@ nav .nav ul li:hover a {
     left: 50%;
     z-index: 10;
     padding: 5px;
-    background: #ffffff;
+    background: #F7F7F7;
     transform: translatex(-50%);
     -webkit-transform: translatex(-50%);
     -moz-transform: translatex(-50%);
